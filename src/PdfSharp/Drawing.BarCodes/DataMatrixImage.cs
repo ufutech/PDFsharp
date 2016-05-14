@@ -1,4 +1,4 @@
-#region PDFsharp - A .NET library for processing PDF
+ï»¿#region PDFsharp - A .NET library for processing PDF
 //
 // Authors:
 //   David Stephensen
@@ -237,12 +237,12 @@ namespace PdfSharp.Drawing.BarCodes
                             if (newenc == 'c')
                             {
                                 e = " 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-                                s3 = "`abcdefghijklmnopqrstuvwxyz{|}~±";
+                                s3 = "`abcdefghijklmnopqrstuvwxyz{|}~Â±";
                             }
                             if (newenc == 't')
                             {
                                 e = " 0123456789abcdefghijklmnopqrstuvwxyz";
-                                s3 = "`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~±";
+                                s3 = "`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~Â±";
                             }
                             if (newenc == 'x')
                                 e = " 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ\r*>";
